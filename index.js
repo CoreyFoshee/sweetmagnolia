@@ -9,11 +9,11 @@ const port = 3000;
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
-  res.render(__dirname + "/index.ejs");
+  res.render(__dirname + "/views/index.ejs");
 });
 
 app.get("/contact", (req, res) => {
-  res.render(__dirname + "/contact.ejs");
+  res.render(__dirname + "/views/contact.ejs");
 });
 
 app.listen(port, (res, req) => {
