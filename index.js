@@ -10,6 +10,7 @@ app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
   res.render(__dirname + "/views/index.ejs");
+  console.log(__dirname + "/views/index.ejs");
 });
 
 app.get("/contact", (req, res) => {
