@@ -4,6 +4,7 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 const port = process.env.PORT || 3000;
+
 app.set("view engine", "ejs");
 
 app.use(express.static(__dirname + "/public"));
