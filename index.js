@@ -7,14 +7,14 @@ const port = process.env.PORT || 3000;
 
 app.set("view engine", "ejs");
 
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/Public"));
 
 app.get("/", (req, res) => {
-  res.render(__dirname + "/views/index");
+  res.render(__dirname + "/Views/index");
 });
 
 app.get("/contact", (req, res) => {
-  res.render(__dirname + "/views/contact");
+  res.render(__dirname + "/Views/contact");
 });
 
 app.listen(port, (res, req) => {
