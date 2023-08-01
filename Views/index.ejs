@@ -1,50 +1,6 @@
 <%- include("partials/header.ejs") %>
   <body>
-    <nav class="navbar navbar-expand-md py-3 ps-3 bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand dark-font" href="./"
-          ><img
-            id="nav-logo"
-            src="./images/logo/logo-african-violet.png"
-            alt="Sweet Magnolia"
-            height="65vh"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse dark-font navbar-collapse"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav ms-auto align-items-center">
-            <li class="nav-item">
-              <a class="nav-link nav-masthead" href="/#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-masthead" href="/#services">Our Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact"
-                ><button
-                  class="d-inline-flex align-items-center btn btn-primary btn-lg text-light px-4 rounded-pill"
-                  type="button"
-                >
-                  Catering Request
-                </button></a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <%- include("partials/nav.ejs") %>
 
     <div class="pt-2 pb-5  hero-section shadow-lg">
       <div class="container py-5">
