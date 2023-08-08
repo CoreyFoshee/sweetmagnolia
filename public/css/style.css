@@ -18,6 +18,10 @@ html {
   font-weight: 400;
 }
 
+.bg-blue {
+  background-color: #0145a6;
+}
+
 .navy-font {
   color: #2c192d;
 }
