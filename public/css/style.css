@@ -17,6 +17,23 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
+.wave-bottom {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(140% + 1.3px);
+  height: 62px;
+}
+
+.wave-bottom .shape-fill {
+  fill: #b173b3;
+}
 
 .bg-blue {
   background-color: #0145a6;
