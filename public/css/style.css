@@ -17,22 +17,17 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
-.wave-bottom {
-  position: absolute;
+
+.transition-wave {
+  aspect-ratio: 900/100;
   width: 100%;
-  overflow: hidden;
-  line-height: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.wave-bottom svg {
-  position: relative;
-  display: block;
-  width: calc(140% + 1.3px);
-  height: 62px;
-}
-
-.wave-bottom .shape-fill {
-  fill: #b173b3;
+.layer2 {
+  background-image: url(../images/wave-purpletowhite.svg);
 }
 
 .bg-blue {
